@@ -54,7 +54,7 @@ client = Mastodon::REST::Client.new(base_url: ENV["MASTODON_URL"],
 
 
 ## 投稿する
-message = ARGV[0] || ask("Your Message: ")
+message = ("this is tes")
 response = client.create_status(message)
 
 ## とりあえず結果を出力してみる
